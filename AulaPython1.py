@@ -79,6 +79,7 @@ while resp == "sim":
             valor = quant*6.5
         case _:
             print(f"Código inválido!")
+            continue
 
     total += valor
     resp = input("Deseja continuar seu pedido?: sim ou não")
